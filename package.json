@@ -1,0 +1,28 @@
+{
+  "name": "th-total-logic-node",
+  "version": "0.0.1",
+  "main": "src/index.js",
+  "repository": "https://github.com/cybaj/th-total-logic.git",
+  "author": "cybaj",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "@hapi/boom": "^10.0.0",
+    "body-parser": "^1.20.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.2",
+    "express": "^4.18.1",
+    "helmet": "^6.0.0",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.0.1",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.25.2",
+    "eslint-plugin-n": "^15.0.0",
+    "eslint-plugin-promise": "^6.0.0"
+  },
+  "scripts": {
+    "start": "NODE_ENV=TEST node ./src/index.js"
+  }
+}
